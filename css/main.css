@@ -5,12 +5,49 @@
     /* these are defaults but applying anyway*/
     flex-direction: row;
      /*flex-wrap: nowrap;*/
-    /*flex-wrap: wrap;*/
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     max-width: 1200px;
 }
 
 .box {
     margin: 10px;
-    width: 100px;
+    text-align: center;
+}
+
+.box1 {
+    flex: 0 0 200px;
+    width: 510px;
+    flex-grow: 4;
+}
+
+.boxh2 {
+    flex: 0 0 412px;
+}
+
+@media (min-width:768px) {
+    
+.boxh2 {
+    flex: 0 1 730px;
+}
+
+.box1 {
+    flex: 0 0 200px;
+    width: 610px;
+    flex-grow: 4;
+}
+
+}
+
+@media (min-width:1200px) {
+    
+.boxh2 {
+    flex: 1 1 1150px;
+}
+
+.box1 {
+    flex: 0 0 200px;
+    width: 610px;
+    flex-grow: 4;
+}
+
 }
