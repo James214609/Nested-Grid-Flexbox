@@ -10,24 +10,59 @@
     <body>
         <main class="grid-con center-grid-con">
           <section class="flex-container col-span-full">
-            <h2 class="box boxh2">Visit Europe</h2>
-            <img src="images/london.jpg" alt="London, UK at night">
+            <header class="grid-con center-grid-con">
+            <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
+                <h2 class="visually-hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Car Rentals</a></li>
+                        <li><a href="#">Attractions</a></li>
+                        <li><a href="#">Tours</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="box boxh2 col-span-full m-col-start-1 m-col-end-4">
+                <h2>Visit Europe</h2>
+            </div>
+            <div id="book-now-header" class="box m-col-span-2">
+                <p>Book Now</p>
+            </div>
+        </header>
+        <section id="hero" class="full-width-grid-con">
+            <img sizes="100vw" 
+             srcset="images/london_xlev7u_c_scale,w_200.jpg 200w,
+             images/london_xlev7u_c_scale,w_571.jpg 571w, 
+             images/london_xlev7u_c_scale,w_826.jpg 826w, 
+             images/london_xlev7u_c_scale,w_1046.jpg 1046w, 
+             images/london_xlev7u_c_scale,w_1276.jpg 1276w, 
+             images/london_xlev7u_c_scale,w_1388.jpg 1388w, 
+             images/london_xlev7u_c_scale,w_1400.jpg 1400w" 
+             src="images/london_xlev7u_c_scale,w_1400.jpg" alt="London at night" id="hero-main">
+             <div class="grid-con">
+                    <div id="book-now-hero" class="col-start-3 col-end-5">
+                        <p>Book Now</p>
+                    </div>
+                    <div id="booking-calendar" class="m-col-start-2 m-col-end-6">
+                        <form id="check-availability">
+                            <h3>Check Availability</h3>
+                            <input type="date" id="booking-cal" name="booking-cal" required>
+                            <input type="number" id="quantity" name="quantity" min="1" max="7" placeholder="Number of Romantic Evenings" required>
+                            <input type="submit" value="Let's Create Something Special">
+                        </form>
+                    </div>
+                    <section id="hero-heading-box" class="col-span-full m-col-start-2 m-col-end-8 l-start-2 l-col-end-7">
+                        <h2 class="hero-img-h2">
+                            <span>European Explorer</span><br> Creating wonderful Vacations to Europe for Solo Travelers &amp; Families
+                        </h2>
+                    </section>
+                </div>
+        </section>
             <div class="box box1">Select a country to see wondrous sites</div>
-            <div class="box">France</div>
-            <div class="box">UK</div>
-            <div class="box">Italy</div>
-            <div class="box">Netherlands</div>
-            <div class="box">Denmark</div>
-            <div class="box">Belgium</div>
-            <div class="box">Spain</div>
-            <div class="box">Switzerland</div>
-            <div class="box">Austria</div>
-            <div class="box">Portugal</div>
-            <div class="box">Norway</div>
-            <div class="box">Sweden</div>
-            <div class="box">Finland</div>
-            <div class="box">Luxembourg</div>
-            <div class="box">Ireland</div>
           </section>  
         </main>
     </body>
