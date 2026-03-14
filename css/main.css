@@ -21,14 +21,95 @@
 }
 
 .boxh2 {
-    flex: 0 0 412px;
+    flex: 0 0 768px;
+}
+
+/*Main Navigation*/
+
+#main-nav button {
+    background: url(../images/burger.svg) center no-repeat;
+    border: 0px;
+	width: 20px;
+	height: 20px;
+	transition: all .5s ease;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#main-nav button.expanded {
+	transform: rotate(90deg);
+}
+
+#burger-con {
+	margin-top: 20px;
+	display: none;
+   margin-bottom: 20px;
+}
+
+#burger-con.slide-toggle {
+    display: block;
+}
+
+#book-now-header {
+    display: none;
+}
+
+#main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+#main-nav li a {
+	display: block;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: darkblue;
+}
+
+#main-nav li {
+	border-bottom: 1px solid #efefef;
+}
+
+#main-nav li:first-child {
+	border-top: 1px solid #efefef;
+}
+
+#main-nav li:last-child {
+	margin-bottom: 10px;
+}
+
+#main-nav li a:hover {
+	color: goldenrod;
+}
+
+#logo {
+   margin-bottom: 20px;
+   max-width: 288px;
+}
+
+/*Hero Image*/
+
+#book-now-hero {
+   background-color: darkblue;
+   color: gold;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 67px;
+   transition: all .3s ease-in-out;
+   font-style: italic;
+}
+
+#book-now-hero:hover {
+   box-shadow: inset 0px -120px 0 0 rgb(0, 0, 300);
 }
 
 #hero-main {
    grid-column: 1/-1;
    grid-row:1/1;
    justify-self: center;
-   height: 300px;
+   height: 400px;
    width: 768px;
    object-fit: cover;
    object-position: center;
@@ -44,13 +125,13 @@
 }
 
 .hero-img-h2, .hero-img-h3 {
-   background: white;
+   background: darkblue;
    padding: 10px 15px;
    font-size: 14px;
 }
 
 .hero-img-h2 span, .hero-img-h3 span {
-   color: #9a2018;
+   color: gold;
    font-size: 12px;
 }
 
@@ -58,11 +139,29 @@
    display: none;
 }
 
+.line-seperator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+#hero-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
 @media screen and (min-width: 768px) {
-    #logo {
-        order: -1;
-        margin-top: 32px;
-    }
+    .boxh2 {
+    order: -1;
+    flex: 0 1 1150px;
+}
+
+    .box1 {
+    flex: 0 0 200px;
+    width: 610px;
+    flex-grow: 4;
+}
    
     #main-nav {
       margin-top: 4%;
@@ -99,7 +198,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     #book-now-hero {
@@ -111,7 +210,7 @@
     }
 
     #hero-main {
-      height: 400px;
+      height: 455px;
       width: 1200px;
    }
 
@@ -157,30 +256,56 @@
    #booking-calendar h3 {
       font-size: 12px;
       margin-bottom: 10px;
-   }    
-
-.boxh2 {
-    flex: 0 1 730px;
-}
-
-.box1 {
-    flex: 0 0 200px;
-    width: 610px;
-    flex-grow: 4;
-}
+   }
 
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width: 1000px) {
     
-.boxh2 {
-    flex: 1 1 1150px;
+    #burger-con {
+      font-size: 16px;
+    }
+
 }
 
-.box1 {
+@media screen and (min-width: 1200px) {
+   .boxh2 {
+        order: -1;
+        flex: 0 1 1150px;
+    }
+
+    .box1 {
     flex: 0 0 200px;
     width: 610px;
     flex-grow: 4;
 }
+   
+    #burger-con {
+      font-size: 16px;
+   }
 
+   #book-now-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+   #burger-con ul li {
+      margin-right: 25px;
+   }
+
+   #main-nav {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-right: 25px;
+   }
+
+   .hero-img-h2, .hero-img-h3 {
+      font-size: 24px;
+   }
+
+   .hero-img-h2 span, .hero-img-h3 span {
+      font-size: 16px;
+   }
 }
