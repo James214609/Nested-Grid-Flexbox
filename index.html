@@ -8,9 +8,7 @@
     <title>Nested Grid Flexbox</title>
 </head>
     <body>
-        <main class="grid-con center-grid-con">
-          <section class="flex-container col-span-full">
-            <header class="grid-con center-grid-con">
+         <header class="grid-con center-grid-con">
             <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
                 <h2 class="visually-hidden">Main Navigation</h2>
                 <button id="button"></button>
@@ -29,8 +27,8 @@
             <div class="box boxh2 col-span-full m-col-start-1 m-col-end-4">
                 <h2>Visit Europe</h2>
             </div>
-            <div id="book-now-header" class="box m-col-start-11 m-col-end-13">
-                <p>Book Now</p>
+            <div id="go-now-header" class="box m-col-start-11 m-col-end-13">
+                <p>Go Now</p>
             </div>
         </header>
         <section id="hero" class="full-width-grid-con">
@@ -44,10 +42,10 @@
              images/london_xlev7u_c_scale,w_1400.jpg 1400w" 
              src="images/london_xlev7u_c_scale,w_1400.jpg" alt="London at night" id="hero-main">
              <div class="grid-con">
-                    <div id="book-now-hero" class="col-start-3 col-end-5">
+                    <div id="go-now-hero" class="col-start-3 col-end-5">
                         <p>Book Now</p>
                     </div>
-                    <div id="booking-calendar" class="m-col-start-2 m-col-end-6">
+                    <div id="trip-creator" class="m-col-start-2 m-col-end-6">
                         <form id="check-availability">
                             <h3>Check Availability</h3>
                             <input type="date" id="booking-cal" name="booking-cal" required>
@@ -62,9 +60,9 @@
                     </section>
                 </div>
         </section>
-            <div class="box box1">Select a country to see wondrous sites</div>
-          </section>  
-        </main>
+        <div class="grid-con center-grid-con full-width-grid-con">
+            <div class="box box1 col-span-full">Select a country to see wondrous sites</div>
+        </div>
     </body>
     <script src="js/main.js"></script>
 </html>
