@@ -50,7 +50,7 @@
     display: block;
 }
 
-#book-now-header {
+#go-now-header {
     display: none;
 }
 
@@ -89,7 +89,7 @@
 
 /*Hero Image*/
 
-#book-now-hero {
+#go-now-hero {
    background-color: darkblue;
    color: gold;
    font-size: 16px;
@@ -101,7 +101,7 @@
    font-style: italic;
 }
 
-#book-now-hero:hover {
+#go-now-hero:hover {
    box-shadow: inset 0px -120px 0 0 rgb(0, 0, 300);
 }
 
@@ -135,7 +135,7 @@
    font-size: 12px;
 }
 
-#booking-calendar {
+#trip-creator {
    display: none;
 }
 
@@ -194,14 +194,14 @@
         display: none;
     }
 
-    #book-now-header {
+    #go-now-header {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 16px;
     }
 
-    #book-now-hero {
+    #go-now-hero {
       display: none;
    }
 
@@ -214,7 +214,7 @@
       width: 1200px;
    }
 
-    #booking-calendar {
+    #trip-creator {
       margin-top: 50px;
       display: block;
       height: 200px;
@@ -225,7 +225,7 @@
       margin-bottom: 10px;
    }
 
-   #booking-calendar input[type="date"], #booking-calendar input[type="number"] {
+   #trip-creator input[type="date"], #trip-creator input[type="number"] {
       padding: 4px;
       border: 2px solid #d6d6d6;
       background-color: #f7f7f7;
@@ -235,11 +235,11 @@
       margin-bottom: 10px;
    }
 
-   #booking-calendar input[type="submit"] {
+   #trip-creator input[type="submit"] {
       padding: 12px 0 12px 0;
-      background-color: #CF6666;
-      color: white;
-      border: solid 2px #CF6666;
+      background-color: gold;
+      color: blue;
+      border: solid 2px black;
       width: 100%;
       font-size: 12px;
       margin-top: 12px;
@@ -248,12 +248,12 @@
       margin-bottom: 10px;
    }
 
-   #booking-calendar input[type="submit"]:hover {
+   #trip-creator input[type="submit"]:hover {
       border: solid 2px #fff;
       cursor: pointer;
    }
 
-   #booking-calendar h3 {
+   #trip-creator h3 {
       font-size: 12px;
       margin-bottom: 10px;
    }
@@ -284,7 +284,7 @@
       font-size: 16px;
    }
 
-   #book-now-header {
+   #go-now-header {
         display: flex;
         align-items: center;
         justify-content: center;
