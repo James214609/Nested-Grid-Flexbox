@@ -21,7 +21,7 @@ The Couples Resort website was used as a reference for creating the hero section
 
 Here are the skills used in this repository:
 
-### Languages:
+## Languages:
 
 JavaScript, HTML5, CSS3
 
@@ -33,7 +33,7 @@ Git
 
 Responsive Design 
 
-## Features 📋 <a id="features"></a>
+## Features
 
 Fully Responsive
 Valid HTML5 & CSS3
