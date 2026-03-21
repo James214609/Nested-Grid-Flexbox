@@ -16,3 +16,32 @@ I decided to create a mockup of a fictional travel agency specializing in trips 
 The image used here is the image of London from the River Thames at night that I used in my previous assignment, Responsive Image Sizing.
 Included are buttons that, if this was a hypothetical website, would link to showing different countries in Europe
 The Couples Resort website was used as a reference for creating the hero section of the home page.
+
+## Skills
+
+Here are the skills used in this repository:
+
+### Languages:
+
+JavaScript, HTML5, CSS3
+
+### Tools: 
+
+Git
+
+### Technologies: 
+
+Responsive Design 
+
+## Features 📋 <a id="features"></a>
+
+Fully Responsive
+Valid HTML5 & CSS3
+
+## Installation
+
+To run the portfolio locally, clone the repository, navigate into the project directory and open the index.html file on your browser.
+
+- Clone this repository
+- Navigate into the project directory:
+- Open the index.html file in your browser
