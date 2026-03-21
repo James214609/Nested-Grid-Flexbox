@@ -41,7 +41,3 @@ Valid HTML5 & CSS3
 ## Installation
 
 To run the portfolio locally, clone the repository, navigate into the project directory and open the index.html file on your browser.
-
-- Clone this repository
-- Navigate into the project directory:
-- Open the index.html file in your browser
